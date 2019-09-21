@@ -7,7 +7,8 @@ def summon_captain_planet(planeteer)
 end
 
 def long_planeteer_calls(calls)
-  # Your code here
+  longFlag = flase
+  calls.map
 end
 
 def find_the_cheese# code an argument here
