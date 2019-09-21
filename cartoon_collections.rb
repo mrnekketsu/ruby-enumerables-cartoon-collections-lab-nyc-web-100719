@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(calls)
   longFlag = false
-  calls.map { |x| if x.length > 4 then longFlag = true }
+  calls.map { |x| if x.length > 4 then longFlag = true end }
   longFlag
 end
 
