@@ -15,6 +15,6 @@ end
 def find_the_cheese(strArr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  calls.map { |food| if cheese_types.include?(food) then return food end}
+  strArr.map { |food| if cheese_types.include?(food) then return food end}
   return nil
 end
